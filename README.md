@@ -1,0 +1,1 @@
+Currently designed to run based on local mp4 files. Will need to make sure that there is a "mediafiles" folder in the public folder that contains subfolders for the individual channels. The channels folders should contain the mp4 files.

@@ -1,0 +1,65 @@
+#root {
+  width: 1800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.apparea{
+  width: 100%;
+}
+
+.topbar {
+  padding: 1.5em;
+  width: 100%;
+  height: 400px;
+  background: #5575a6;
+}
+
+.vidbox {
+  background: black;
+}
+
+.timebar {
+  background: #1b3665;
+}
+
+.channelbar {
+  background: #95b8e0;
+  color: #090b0e;
+}
+
+.schedule {
+  width: 100%;
+  table-layout: fixed;
+  background: #1b3665;
+}
+
+.channel:focus-within {
+  background: #592e87;
+}
+
+.episode:focus {
+  background: #f6f4a1;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+/* video embed stuff */
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive-inner {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
