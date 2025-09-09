@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 #local media files
-*.mp4
+# *.mp4
